@@ -1,5 +1,24 @@
 import streamlit as st
 
+st.markdown("""
+<style>
+.big-btn button {
+    width: 100%;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.trust button {
+    background-color: #1f77ff;
+    color: white;
+}
+.betray button {
+    background-color: #ff3b3b;
+    color: white;
+}
+</style>
+""", unsafe_allow_html=True)
+
 if "step" not in st.session_state:
     st.session_state.step = 1
     st.session_state.p = [None, None, None]
