@@ -33,7 +33,7 @@ def reset_game():
 st.title("3인 죄수의 딜레마")
 
 # 초기화 버튼
-if st.button("리"):
+if st.button("리셋"):
     reset_game()
 
 # ===== 선택 단계 =====
