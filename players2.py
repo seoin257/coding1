@@ -82,4 +82,3 @@ elif st.session_state.step == 3:
         )
 
     st.write("---")
-    st.write(f"누적 점수 → Player 1: {st.session_state.score[0]} / Player 2: {st.session_state.score[1]}")
