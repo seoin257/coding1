@@ -80,5 +80,3 @@ elif st.session_state.step == 3:
             f"Player {i+1}: "
             f"{'신뢰' if st.session_state.p[i]=='C' else '배신'} ({s[i]:+d})"
         )
-
-    st.write("---")
